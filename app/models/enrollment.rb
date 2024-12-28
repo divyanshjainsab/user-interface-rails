@@ -4,6 +4,5 @@ class Enrollment < ApplicationRecord
     belongs_to :course
 
     # validations
-    validates :status, acceptance: { accept: %w[enrolled completed dropout] }
-
+    validates :status, acceptance: { accept: %w[active completed dropout] }
 end
