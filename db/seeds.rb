@@ -1041,4 +1041,4 @@ end
 ].each {|c| Course.create([**c,created_at: created_at])} # Run to create courses
 
 # Run to create Enrollements
-(1..1000).each {|i| Enrollment.create(user_id: i, course_id: rand(1..21), status:%w[active completed dropout][ rand(1..3)], created_at: created_at)}
+(1..1000).each {|i| Enrollment.create(user_id: i, course_id: rand(1..21), status:%w[active completed dropped][ rand(0..2)], created_at: created_at)}
