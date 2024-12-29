@@ -5,20 +5,16 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+- Ruby version -> 3.2+ (recommmend 3.3.6)
 
-* System dependencies
+- System dependencies -> rails 8+ required
 
-* Configuration
+- Configuration -> minimum specs for rails project
 
-* Database creation
+- Path -> go to the project folder, right-click on it, select open to intergrated terminal
 
-* Database initialization
+- Database creation -> run 'rails db:create' if no database created
 
-* How to run the test suite
+- Database initialization -> run 'rails db:seed' only once
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Usage -> run 'rails console'
